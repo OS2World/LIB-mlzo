@@ -1,0 +1,34 @@
+Begin3
+Title:          miniLZO -- mini version of the LZO data compression library
+Version:        1.00
+Entered-date:   13JUL97
+Description:    LZO is a portable lossless data compression library written
+                in ANSI C. It implements a number of algorithms with
+                the following features:
+                  - Decompression is simple and *very* fast.
+                  - Requires no memory for decompression.
+                  - Compression is pretty fast.
+                  - Requires 64 kB of memory for compression.
+                I've created miniLZO for projects where it is inconvenient to
+                include (or require) the full LZO source code just because you
+                want to add a little bit of data compression to your
+                application.
+                miniLZO implements the LZO1X-1 algorithm and consists of one C
+                source file and two header files.
+                It compiles to about 6 kB (when using gcc or Watcom C on a
+                i386), and the sources are about 14 kB when packed with zip -
+                so there's no more excuse that your application doesn't
+                support data compression :-)
+Keywords:       compression, library
+Author:         markus.oberhumer@jk.uni-linz.ac.at (Markus F.X.J. Oberhumer)
+Maintained-by:  markus.oberhumer@jk.uni-linz.ac.at (Markus F.X.J. Oberhumer)
+Primary-site:   http://www.infosys.tuwien.ac.at/Staff/lux/marco/lzo.html
+                ftp://hpv17.infosys.tuwien.ac.at/pub/mfx/lzo
+                23kB minilzo-1.00.tar.gz
+Alternate-site: ftp://sunsite.unc.edu/pub/Linux/libs
+                23kB minilzo-1.00.tar.gz
+Alternate-site: ftp://tsx-11.mit.edu/pub/linux/sources/libs
+                23kB minilzo-1.00.tar.gz
+Platforms:      Requires ANSI C compiler.
+Copying-policy: GPL
+End
